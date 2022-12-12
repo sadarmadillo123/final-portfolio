@@ -1,0 +1,113 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+/* Additional Styling */
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+#project-content-container {
+  font-family: "Open Sans", sans-serif;
+  font-weight: light;
+  font-size: 1.1rem;
+  margin-top: 100px;
+  margin-left: 5vw;
+  max-width: 90%;
+  margin-bottom: 100px;
+}
+
+.section {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-row-flush-left {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.section-row-space-evenly {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.left-section {
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-section > p {
+  margin-top: 0.8em;
+}
+
+li {
+  margin-top: 0.4rem;
+}
+
+ol > li::marker {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 1.9rem;
+}
+
+.zoom-img {
+  transition: transform 0.2s;
+}
+.zoom-img:hover {
+  transform: scale(1.14);
+  box-shadow: rgba(243, 92, 210, 0.35) 0px 5px 15px;
+}
+h4 {
+  margin-top: 0.8rem;
+  font-style: bold;
+  font-size: 1.2rem;
+}
+
+.zoom-img-small {
+  transition: transform 0.2s;
+}
+
+.zoom-img-small:hover {
+  transform: scale(1.3);
+  box-shadow: rgba(243, 92, 210, 0.35) 0px 5px 15px;
+}
+
+.zoom-img-large {
+  transition: transform 0.2s;
+}
+
+.zoom-img-large:hover {
+  transform: scale(1.08);
+  box-shadow: rgba(243, 92, 210, 0.35) 0px 5px 15px;
+}
+
+/* Additional Styling */
+.project2 p {
+  margin-top: 0.8rem;
+}
+
+.project2 img {
+  border-radius: 4px;
+}

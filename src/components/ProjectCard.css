@@ -1,0 +1,15 @@
+.project-image {
+  object-fit: contain;
+  vertical-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.projectCard {
+  background-color: rgb(29, 29, 29);
+  border-color: rgb(100, 100, 100);
+  border-radius: 6px;
+  border-width: 2px;
+  filter: brightness(100%);
+  -webkit-filter: brightness(100%);
+}

@@ -1,0 +1,87 @@
+#project-content-container {
+  font-family: "Open Sans", sans-serif;
+  font-weight: light;
+  font-size: 1.2rem;
+  margin-top: 100px;
+  margin-left: 5vw;
+  max-width: 90%;
+  width: 90%;
+  margin-bottom: 100px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-row-flush-left {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+}
+
+.section-row-space-evenly {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+figure {
+  display: table;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #c9a5ac;
+  margin-top: 5px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-style: italic;
+  color: rgb(100, 100, 100);
+}
+
+blockquote p {
+  display: inline;
+}
+
+h3 {
+  font-size: larger;
+  color: rgba(163, 224, 252, 0.932);
+}
+
+.left-section {
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-section > p {
+  margin-top: 0.8em;
+}
+
+li {
+  margin-top: 0.2em;
+}
+
+ol > li::marker {
+  font-weight: 600;
+}
+
+.projectContainer {
+  margin-top: 4.5rem;
+}
+
+.section a {
+  color: rgb(116, 116, 211);
+}

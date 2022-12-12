@@ -1,0 +1,114 @@
+.about {
+  position: relative;
+  height: 650px;
+  min-height: 500px;
+  width: 100%;
+  background: url(../../public/images/header-background-2.jpg) no-repeat top center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* vertically center banner section */
+
+.about:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  background: inherit;
+  height: 100%;
+}
+
+.gradient-text {
+  text-shadow: none;
+  text-align: center;
+
+  background: linear-gradient(
+    to left,
+    #fff 40%,
+    #36eaef 52%,
+    #4b90e0 65%,
+    #5955d6 79%,
+    #6b0ac9 90%
+  );
+  background-size: 200% auto;
+
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: slide 2.3s linear infinite;
+  animation-direction: reverse;
+}
+
+@keyframes slide {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.about .banner {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  width: 75%;
+  margin-top: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.about .banner-text {
+  width: 100%;
+}
+.about .banner-text h1 {
+  font: 90px/1.1em "opensans-bold", sans-serif;
+  color: #fff;
+  letter-spacing: -2.5px;
+  margin: 0 auto 18px auto;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+}
+.about .banner-text h3 {
+  font: 18px/1.9em "librebaskerville-regular", serif;
+  color: #a8a8a8;
+  margin: 0 auto;
+  width: 70%;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.about .banner-text hr {
+  width: 60%;
+  margin: 18px auto 22px auto;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom-width: 1px;
+  border-color: rgba(150, 150, 150, 0.35);
+}
+
+.styled-link {
+  color: #d2a2fc;
+  text-decoration: none;
+}
+
+.styled-link:hover {
+  color: #d2a2fc;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.styled-link:visited {
+  color: #d2a2fc;
+}
+
+.about .icons {
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

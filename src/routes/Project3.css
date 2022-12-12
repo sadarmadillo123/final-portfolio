@@ -1,0 +1,190 @@
+:root {
+  --main-bg-color: rgb(87, 135, 255);
+}
+
+#images {
+  display: flex;
+  justify-content: center;
+}
+
+#images > div {
+  border-radius: 15px;
+  background-color: var(--main-bg-color);
+  border: solid rgba(213, 245, 245) 7px;
+}
+
+#images > div > img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.body-content {
+  text-align: center;
+}
+
+.empathyMap {
+  display: flex;
+  justify-content: center;
+}
+
+.empathyMap > div {
+  border-radius: 15px;
+  background-color: var(--main-bg-color);
+  border: solid rgba(213, 245, 245) 5px;
+}
+
+.empathyMap > div > img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.questions {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.questions > div {
+  width: 70%;
+  border-radius: 5%;
+  background-color: var(--main-bg-color);
+  border: solid rgba(213, 245, 245) 5px;
+}
+
+.captions {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.captions > div {
+  width: 70%;
+  border-radius: 5%;
+  background-color: var(--main-bg-color);
+  border: solid rgba(213, 245, 245) 5px;
+}
+
+.observations {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.observations > div {
+  width: 70%;
+  border-radius: 5%;
+  background-color: var(--main-bg-color);
+  border: solid rgba(213, 245, 245) 5px;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#sketch1 #sketch2 {
+  display: flex;
+}
+
+#sketch1 > img {
+  max-width: auto;
+  max-height: 300px;
+}
+
+#sketch2 > img {
+  max-width: auto;
+  max-height: 500px;
+}
+
+.questionReference {
+  font-weight: bolder;
+}
+
+.storyboard {
+  display: flex;
+  justify-content: center;
+}
+
+.storyboard > div {
+  border-radius: 15px;
+  background-color: var(--main-bg-color);
+  border: solid rgb(135, 227, 227) 5px;
+}
+
+.storyboard > div > img {
+  border-radius: 15px;
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+}
+
+.questions > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#logo > span > img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  text-align: center;
+
+  display: block;
+  margin: 0 auto;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+#pdfView {
+  width: 60%;
+  min-height: 500px;
+}
+
+.check {
+  color: green;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+#more {
+  display: none;
+}
+
+/* https://www.w3schools.com/css/css3_buttons.asp */
+#myBtn {
+  background-color: #c67ff5; /* Green */
+  border-radius: 10px 10px 10px 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.body-content > * {
+  margin-top: 2rem;
+}
+
+.body-content h2 {
+  color: rgba(163, 224, 252, 0.932);
+}
+
+.body-content object {
+  overflow: scroll;
+}
+
+.body-content b {
+  font-weight: 800;
+  color: #e7c4ff;
+}

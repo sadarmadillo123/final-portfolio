@@ -1,0 +1,22 @@
+.navbar {
+  z-index: 1;
+}
+.navbar a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+#basic-menu a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar object {
+  pointer-events: none;
+}
